@@ -1,0 +1,142 @@
+.main-about{
+    height: 100vh;
+    width: 100%;
+    padding: 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me h1{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.about-intro{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.about-intro-div{
+    width: 100%;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 32px 24px;
+    box-shadow: 10px 10px 30px rgb(167, 166, 166);
+
+}
+
+.about-intro-div h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+
+}
+
+.about-intro-div p{
+
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.about-intro-div button{
+    background-color: #6E57E0;
+    color: white;
+    padding: 8px 26px;
+    border-radius: 20px;
+    font-weight: 400;
+    transition-duration: 300ms;
+    border: none;
+
+}
+
+.about-intro-div button:hover{
+
+    background-color: #285BD4;
+}
+
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 32px 24px;
+    border-radius: 6px;
+}
+
+.about-skills h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.about-skills-set{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 90%;
+    font-weight: 500;
+}
+
+.about-skills-set span{
+    background-color: #6E57E0;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.about-skills-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 32px 24px;
+    border-radius: 6px;
+}
+
+.about-skills-1 h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 979px) {
+
+    .main-about{
+    gap: 25px;
+    }
+
+    .about-intro{
+        margin-top: 9px;
+    }
+
+
+    .about-intro-div{
+        max-width: 100%;
+    }
+
+    .about-skills{
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .about-skills-1{
+        width: 100%;
+        align-items: center;
+    }   
+}

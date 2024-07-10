@@ -1,0 +1,136 @@
+.contact-section{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 64px;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.contact-div h1{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.contact-div p{
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.find-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 16px;
+    height: 33%;
+}
+
+.first-div{
+    width: 48%;
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 10px 10px 30px rgb(167, 166, 166);
+    border-radius: 8px;
+    gap: 22px;
+    overflow: hidden;
+    position: relative;
+    background-color: #00C9FF;
+    cursor: pointer;
+}
+
+
+.first-div h1{
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.first-div p{
+    font-weight: 500;
+}
+
+.first-div::after{
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    z-index: -1;
+}
+
+.first-div:hover>h1,
+.first-div:hover>p{
+    color: black;
+    z-index: 2;
+}
+
+
+.first-div:hover::after{
+    z-index: 1;
+    bottom: 0%;
+}
+
+.s-d-1{
+    width: 100%;
+    gap: 4%;
+    display: flex;
+}
+
+.s-d-1 input{
+    width: 48%;
+    padding: 12px 8px;
+    border: 2px solid #777;
+    border-radius: 8px;
+    font-size: .875rem;
+}
+
+.s-d-2{
+    width: 100%;
+    height: 100%;
+}
+
+.s-d-2 textarea{
+    width: 100%;
+    height: 100%;
+    padding: 12px 8px;
+    border: 2px solid #777;
+    border-radius: 8px;
+    font-size: .875rem;
+}
+
+.btn-div{
+    margin-bottom: 30px;
+}
+
+.btn-div button{
+    padding: 8px 24px;
+    background-color: #00C9FF;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s ;
+    cursor: pointer;
+}
+
+.btn-div button:hover{
+    background-color: #00B5E7;
+}
+

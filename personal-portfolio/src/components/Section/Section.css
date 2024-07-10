@@ -1,0 +1,112 @@
+.main-div{
+    width: 100%;
+    height: calc(90vh - 80px);
+}
+
+.intro-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+    padding: 0 4rem;
+}
+
+.p-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background-color: #c1a836;
+    padding: 0.25rem 1rem;
+    border-radius: 6px;
+}
+
+.main-h1{
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+    font-size: 3.7rem;
+
+}
+
+.main-h1 span{
+    color: #1e9fab;
+}
+
+.main-p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.main-btn{
+    display: flex;
+    gap: 1.75rem;
+    transition-duration: 300ms;
+}
+
+.btn-1{   
+background-color: #6E57E0;
+color: white;
+border: none;
+padding: .5rem 1.5rem;
+border-radius: 6px;
+font-weight: 500;
+}
+
+.btn-1:hover{
+    background-color: #285BD4;
+}   
+
+
+.btn-2{
+    background-color: rgb(226, 224, 224);
+    font-size: 1rem;
+    border: none;
+    color: black;
+    padding: .5rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+}
+.btn-2:hover{
+    background-color: #1e9fab;
+    color: white;
+}
+
+
+.i-sec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #e2e8f0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.icon:hover{
+    color: #6E57E0;
+}
+
+
+@media only screen and (max-width: 688px) {
+
+    .main-h1{
+        font-size: 2.5rem;
+    }
+}
